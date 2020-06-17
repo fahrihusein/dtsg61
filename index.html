@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width" initial-scale="1.0">
+	<title>DTS-G61 - Template Premium Murah</title>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header class="header" id="thisHeader">
+		<div class="container">
+			<div class="left judul">G61 - SHOP</div>
+			<div class="right menu">
+				<div class="list-menu"><a href="#">Home</a></div>
+				<div class="list-menu"><a href="#">Testimonial</a></div>
+				<div class="list-menu"><a href="#">Layanan</a></div>
+				<div class="list-menu"><a href="#">Author</a></div>
+				<div class="list-menu"><a href="#">About</a></div>
+			</div>
+		</div>
+	</header>
+	<div class="banner right">
+		<div class="grafik">
+			<img class="right" src="http://geocities.ws/fahrihusein/v.2/laptop.svg">
+		</div>
+	</div>
+	<script type="text/javascript">
+		window.onscroll = function(){scrollFunction()};
+		var header = document.getElementById('thisHeader');
+		var makeScroll = header.offsetTop;
+
+		function scrollFunction(){
+			if (window.pageYOffset > makeScroll) {
+				header.classList.add("header_pas_turun");
+			}
+			else {
+				header.classList.remove("header_pas_turun");
+			}
+		}
+	</script>
+</body>
+</html>
